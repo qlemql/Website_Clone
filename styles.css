@@ -4,14 +4,16 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
+/* @media screen and(min-width:320px) and (max-width: 1200px) {
+} */
 body {
   background-color: #131717;
 }
-
 a {
   color: inherit;
 }
+
+/* Header CSS */
 
 .header__header {
   position: fixed;
@@ -61,6 +63,8 @@ a {
 .header__content-search {
   font-size: 25px;
 }
+
+/* Main css */
 
 .poster {
   width: 100%;
@@ -200,7 +204,250 @@ a {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 642px;
+  top: 641px;
   left: 830px;
   cursor: pointer;
+}
+
+/* Section CSS */
+
+.genres {
+  margin-top: 30px;
+  width: 100%;
+  height: 50vh;
+}
+
+.genres__title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 135px;
+}
+
+.title__name {
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title__more {
+  padding-top: 10px;
+  color: #5c5c5c;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.more__select:nth-child(1) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  top: 820px;
+  left: 1280px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.more__select:nth-child(2) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  top: 820px;
+  left: 1290px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.more__select:nth-child(3) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  top: 820px;
+  left: 1300px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.more__select:nth-child(4) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  top: 820px;
+  left: 1310px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.more__select:nth-child(5) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  top: 820px;
+  left: 1320px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.vod__select:nth-child(1) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #fafafa;
+  top: 1212px;
+  left: 1310px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.vod__select:nth-child(2) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  top: 1212px;
+  left: 1320px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pop__select:nth-child(1) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #fafafa;
+  top: 1602px;
+  left: 1290px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pop__select:nth-child(2) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  top: 1602px;
+  left: 1300px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pop__select:nth-child(3) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  top: 1602px;
+  left: 1310px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pop__select:nth-child(4) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  top: 1602px;
+  left: 1320px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.genres__tvs {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 100px;
+}
+
+.tv__img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.tv__infor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #fafafa;
+}
+
+.infor__number {
+  font-size: 30px;
+}
+.infor__block {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.infor__name {
+  margin-top: 2px;
+}
+.infor__description {
+  margin-top: 2px;
+  font-size: 12px;
+  opacity: 0.4;
+}
+.infor__percent {
+  margin-top: 2px;
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+.pop__number {
+  position: absolute;
+  top: 1875px;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.pop__name:nth-child(1) {
+  position: absolute;
+  top: 1910px;
+  left: 100px;
+  color: white;
+  font-size: 14px;
+}
+
+.pop__name:nth-child(2) {
+  position: absolute;
+  top: 1910px;
+  left: 250px;
+  color: white;
+  font-size: 14px;
+}
+
+.pop__name:nth-child(3) {
+  position: absolute;
+  top: 1910px;
+  left: 350px;
+  color: white;
+  font-size: 14px;
+}
+
+.pop__name:nth-child(4) {
+  position: absolute;
+  top: 1910px;
+  left: 450px;
+  color: white;
+  font-size: 14px;
+}
+
+.pop__name:nth-child(5) {
+  position: absolute;
+  top: 1910px;
+  left: 550px;
+  color: white;
+  font-size: 14px;
+}
+
+.pop__name:nth-child(6) {
+  position: absolute;
+  top: 1910px;
+  left: 650px;
+  color: white;
+  font-size: 14px;
 }
