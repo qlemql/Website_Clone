@@ -402,7 +402,7 @@ a {
 
 .pop__number {
   position: absolute;
-  top: 1880px;
+  top: 1960px;
   color: white;
   font-size: 50px;
   font-weight: 600;
@@ -416,5 +416,75 @@ a {
 /* FOOTER CSS */
 
 .footer__bar {
-  background-color: red;
+  width: 100%;
+  height: 50px;
+  margin-top: 150px;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bar__left,
+.bar__right {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bar__left {
+  margin-right: 180px;
+}
+.bar__title {
+  color: #c5c5c5;
+}
+
+.bar__discription {
+  color: #595959;
+}
+
+.bar__icon i {
+  font-size: 2rem;
+}
+
+.bar__link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 170px;
+  height: 40px;
+  border: 1px solid;
+  color: #545150;
+  font-size: 12px;
+}
+
+.footter__links,
+.infor {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 350px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #949494;
+}
+
+.links__title:nth-child(4) {
+  color: #dedede;
+}
+
+.links__title:nth-child(8) {
+  color: #dedede;
+}
+
+.footter__links:nth-child(3) {
+  color: #545150;
+}
+
+.infor {
+  color: #545150;
 }
