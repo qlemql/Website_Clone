@@ -86,6 +86,9 @@
 }
 
 .up {
+  position: fixed;
+  top: 90%;
+  left: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
