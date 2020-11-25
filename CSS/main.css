@@ -1,0 +1,147 @@
+/* Main css */
+
+.main {
+  width: 100%;
+  height: 700px;
+  background-image: url(../imgs/poster2.png);
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.main__arrow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 310px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+}
+.main__left i {
+  -webkit-text-stroke: 1px white;
+}
+
+.main__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.content__title {
+  color: #fafafa;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.content__description {
+  padding: 40px 0px;
+  color: #fafafa;
+  font-size: 15px;
+  font-weight: 800;
+  opacity: 0.7;
+}
+
+.main__more {
+  width: 105px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(95, 95, 95, 0);
+  border: 1px solid rgba(255, 255, 255, 0.418);
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  color: white;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.main__more:hover {
+  background-color: #474747;
+}
+
+.box__select {
+  padding-left: 5px;
+  width: 100px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.select:nth-child(1) {
+  width: 5px;
+  height: 5px;
+  background-color: #fafafa;
+  border-radius: 50%;
+}
+.select:nth-child(2) {
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  border-radius: 50%;
+}
+
+.select:nth-child(3) {
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  border-radius: 50%;
+}
+
+.select:nth-child(4) {
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  border-radius: 50%;
+}
+
+.select:nth-child(5) {
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  border-radius: 50%;
+}
+
+.select:nth-child(6) {
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  border-radius: 50%;
+}
+
+.select:nth-child(7) {
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  border-radius: 50%;
+}
+
+.select:nth-child(8) {
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  border-radius: 50%;
+}
+
+.select:nth-child(9) {
+  width: 5px;
+  height: 5px;
+  background-color: #545150;
+  border-radius: 50%;
+}
+
+.main__play {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+}
