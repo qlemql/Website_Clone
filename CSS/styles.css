@@ -17,3 +17,18 @@ body {
 a {
   color: inherit;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: auto;
+    min-height: 0;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 796px) {
+    body {
+      width: auto;
+      min-height: 0;
+      margin-bottom: 10px;
+    }
+  }
+} ;

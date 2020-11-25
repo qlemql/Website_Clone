@@ -7,7 +7,11 @@
   top: 0;
   left: 0;
   right: 0;
-  /* backdrop-filter: blur(30px); */
+  /*  */
+}
+
+.header__header:hover {
+  backdrop-filter: blur(30px);
 }
 
 .header__nav {
@@ -41,14 +45,21 @@
   padding-top: 10px;
 }
 
+.header__content-icon {
+  font-size: 30px;
+  font-weight: 800;
+  padding-left: 35px;
+}
+
 .header__content-content {
   display: flex;
   align-items: center;
 }
 .hedaer__content-name {
   font-size: 17px;
-  padding-right: 20px;
+  padding: 0px 25px;
 }
 .header__content-search {
   font-size: 25px;
+  padding-right: 60px;
 }
