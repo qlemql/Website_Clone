@@ -21,9 +21,6 @@
   color: white;
   cursor: pointer;
 }
-.main__left i {
-  -webkit-text-stroke: 1px white;
-}
 
 .main__content {
   display: flex;
@@ -36,7 +33,7 @@
 .content__title {
   color: #fafafa;
   font-size: 35px;
-  font-weight: 800;
+  font-weight: bold;
 }
 
 .content__description {
@@ -65,12 +62,12 @@
   background-color: #161616;
 }
 
-.box__select {
+.box {
   padding-left: 5px;
-  width: 100px;
+  width: 150px;
   height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding-top: 10px;
   font-size: 12px;
@@ -78,12 +75,20 @@
   cursor: pointer;
 }
 
-.select:nth-child(1) {
+.box__select{
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box__select div:first-child{
   width: 5px;
   height: 5px;
   background-color: #fafafa;
   border-radius: 50%;
 }
+
 
 .first ~ div{
   width: 5px;
@@ -92,9 +97,6 @@
   border-radius: 50%;
 }
 
-.main__play {
-  width: 20px;
-  height: 20px;
-  padding-left: 10px;
-  padding-top: 3px;
+.box span{
+  font-size: 20px;
 }

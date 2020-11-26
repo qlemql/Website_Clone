@@ -33,12 +33,13 @@
   cursor: pointer;
 }
 
-.more__select:nth-child(1) {
+.title__more div:first-child{
   width: 5px;
   height: 5px;
   background-color: #fafafa;
   border-radius: 50%;
 }
+
 
 .first ~ div{
   width: 5px;
@@ -46,23 +47,6 @@
   background-color: #545150;
   border-radius: 50%;
 }
-
-.vod__select:nth-child(1) {
-  width: 5px;
-  height: 5px;
-  background-color: #fafafa;
-  border-radius: 50%;
-}
-
-
-.pop__select:nth-child(1) {
-  width: 5px;
-  height: 5px;
-  background-color: #fafafa;
-  border-radius: 50%;
-}
-
-
 
 .genres__tvs {
   display: flex;
