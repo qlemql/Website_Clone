@@ -84,56 +84,8 @@
   background-color: #fafafa;
   border-radius: 50%;
 }
-.select:nth-child(2) {
-  width: 5px;
-  height: 5px;
-  background-color: #545150;
-  border-radius: 50%;
-}
 
-.select:nth-child(3) {
-  width: 5px;
-  height: 5px;
-  background-color: #545150;
-  border-radius: 50%;
-}
-
-.select:nth-child(4) {
-  width: 5px;
-  height: 5px;
-  background-color: #545150;
-  border-radius: 50%;
-}
-
-.select:nth-child(5) {
-  width: 5px;
-  height: 5px;
-  background-color: #545150;
-  border-radius: 50%;
-}
-
-.select:nth-child(6) {
-  width: 5px;
-  height: 5px;
-  background-color: #545150;
-  border-radius: 50%;
-}
-
-.select:nth-child(7) {
-  width: 5px;
-  height: 5px;
-  background-color: #545150;
-  border-radius: 50%;
-}
-
-.select:nth-child(8) {
-  width: 5px;
-  height: 5px;
-  background-color: #545150;
-  border-radius: 50%;
-}
-
-.select:nth-child(9) {
+.first ~ div{
   width: 5px;
   height: 5px;
   background-color: #545150;
